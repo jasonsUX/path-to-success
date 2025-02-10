@@ -54,3 +54,44 @@ table {
 }
 
 /* ROOT VARIABLES*/
+:root {
+    --teal: #4CA7C0;
+    --purple: #484FB7;
+    --lavendar: #6B8FE7;
+    --yellow: #E9BB57;
+    --pink: #D9526F;
+    --dk-gray: #1E1E1E;
+    --white: #ffff;
+}
+
+body{
+    background-color: var(--purple);
+    width: 450px;
+    margin: 0 auto;
+}
+
+header{
+    position: absolute;
+    background-color: var(--lavendar);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+header > h1{
+    font-family: 'Kavoon';
+    color: var(--white);
+    margin: 0 auto;
+    font-size: 3rem;
+    text-align: center;
+}
+
+header > p{
+    background-color: var(--pink);
+    color: var(--white);
+}
+
+header > nav{
+    position:absolute;
+    float: right;
+}
+
