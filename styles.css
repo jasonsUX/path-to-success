@@ -94,6 +94,8 @@ header p{
     text-align: center;
     font-family: 'Inter';
     font-style: italic;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
 }
 
 nav a{
@@ -111,4 +113,168 @@ nav a{
     font-weight: bold;
 }
 
+h2{
+    font-family: 'Kavoon';
+    color: var(--white);
+    font-size: 2rem;
+    padding-top: 3rem;
+}
 
+h3{
+    font-family: 'Inter';
+    font-size: 1.5em;
+    color: var(--yellow);
+    font-weight: bold;
+    padding-top: 1rem;
+}
+
+.option{
+    background-color: var(--white);
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+h4{
+    font-family: 'Inter';
+    color: var(--purple);
+    font-size: 1.15em;
+    font-weight: bold;
+    padding-top: 1rem;
+}
+
+.option > p{
+    font-family: 'Inter';
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#choose{
+    background-color: var(--pink);
+}
+
+#choose > h2{
+    padding: 1rem;
+}
+
+ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: 0 auto;
+}
+
+li{
+    font-family: 'Inter';
+    font-weight: bold;
+    padding: 1rem;
+    margin: 0 auto;
+    font-size: 1.15em;
+    text-align: center;
+}
+
+li:first-child{
+    background-color: var(--teal);
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+li:nth-child(2){
+    background-color: var(--lavendar);
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+li:nth-child(3){
+    background-color: var(--yellow);
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+li:nth-child(4){
+    background-color: var(--white);
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+table{
+    background-color: var(--yellow);
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+}
+
+tr, th{
+    font-family: 'Inter';
+}
+
+th{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+td{
+    background-color: var(--white);
+    padding: 1rem;
+    border: 2px solid var(--yellow);
+}
+
+#step > h2{
+    padding: 0;
+}
+
+#step{
+    display: block;
+    background-color: var(--pink);
+    padding: 1em;
+    font-family: 'Inter';
+    color: var(--white);
+    align-items: center;
+    margin-top: 0.5em;
+}
+
+#step p{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#step a{
+    display: block;
+    margin: 0 auto;
+    background-color: var(--white);
+    font-family: 'Inter';
+    text-decoration: none;
+    color: var(--dk-gray);
+    padding: 2rem;
+    font-weight: bold;
+    text-align: center;
+    width: 70%;
+    border-radius: 30px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 5px var(--dk-gray)
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    background-color: var(--lavendar);
+    border-radius: 0 0 25px 25px;
+    margin-bottom: 2rem;
+}
+
+footer p{
+    font-family: 'Inter';
+    color: var(--white);
+    padding: 3rem;
+    text-wrap: nowrap;
+}
+
+footer p:nth-child(2){
+    text-decoration: underline;
+}
